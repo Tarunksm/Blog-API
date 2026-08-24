@@ -3,6 +3,7 @@ import userRouter from "./routes/user.routes.js";
 import postRouter from "./routes/post.routes.js";
 import authRouter from "./routes/auth.routes.js";
 import { errorHanlder } from "./middleware/error.middleware.js";
+import "./types/express";
 
 const app = express();
 
