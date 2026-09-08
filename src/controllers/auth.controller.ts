@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import prisma from "../lib/prisma.js";
 import { Request, Response, NextFunction } from "express";
 import bcrypt from "bcrypt";
-import "dotenv/config";
+import "dotenv/config.js";
 
 export const loginController = async (
   req: Request,

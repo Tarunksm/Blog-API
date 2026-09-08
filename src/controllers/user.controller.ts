@@ -1,4 +1,4 @@
-import prisma from "../lib/prisma";
+import prisma from "../lib/prisma.js";
 import { Request, Response, NextFunction } from "express";
 import bcrypt from "bcrypt";
 
