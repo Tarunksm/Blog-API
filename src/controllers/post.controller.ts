@@ -80,7 +80,7 @@ export const getPosts = async (
             ],
           }
         : undefined,
-      skip: page - 1 * limit,
+      skip: (page - 1) * limit,
       take: limit,
       select: {
         id: true,
